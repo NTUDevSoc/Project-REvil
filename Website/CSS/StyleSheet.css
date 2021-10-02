@@ -1,0 +1,172 @@
+/* Base structure */
+
+html, body {
+  height: 100%;
+}
+
+/* Customise the Navigation Bar */
+.navbar {
+  background-color:#050f1b;
+}
+
+.navbar a {
+  color:white;
+  float: left;
+  display: block;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Signika', sans-serif;
+}
+
+.navbar a:hover {
+  color:#b7bdc6 ;
+}
+
+.dropdown-menu {
+  background-color: #181818;
+}
+
+.dropdown-menu a:hover{
+  background-color: #181818;
+}
+
+i{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+@media (max-width:540px) {
+  .header-title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width:300px) {
+  .header-title {
+    font-size: 35px;
+  }
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+
+/* Gap Between Rows */
+.top-buffer { 
+  margin-top:30px; 
+}
+
+/* Socials */
+.socials {
+  color:#102542;
+  margin: 6px;
+  text-align: center;
+}
+
+.socials:hover {
+  text-decoration: none;
+  transform: scale(1.15);
+  color:#102542;
+}
+
+/* Events */
+.card {
+  box-shadow: 0 5px 5px -1px gray;
+}
+
+/* Committee Profiles */
+.name {
+  color: Black;
+}
+
+.work {
+  font-weight: bold;
+  font-size: 15px
+}
+
+.about span {
+  font-size: 13px
+}
+
+.box {
+  -webkit-box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+  -moz-box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+  box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72)
+}
+
+.box a {
+  color: black;
+}
+
+.box a:hover {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+.bg-custom{
+  background-color: rgb(247, 247, 247);
+}
+
+#more {display: none;}
+
+.moreButton:hover {
+  color: #5e5e5e;
+}
+
+/* Archive Icons */
+/* Socials */
+.archive-icon {
+  color:#102542;
+}
+
+.archive-icon:hover {
+  transform: scale(1.15);
+}
